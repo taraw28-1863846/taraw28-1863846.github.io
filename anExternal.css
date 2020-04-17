@@ -1,0 +1,115 @@
+body {
+  background-image: url('builder2-resources/leaves.png');
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'Gotu', sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Gotu', sans-serif;
+  font-size: 26px;
+  text-decoration: underline;
+}
+
+ul {
+  list-style: circle;
+}
+
+#main {
+  display: flex;
+  align-items: center;
+  background-image: url('builder2-resources/dark_wood.png');
+  height: 450px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #FBFBF8;
+}
+
+#main img {
+  float: left;
+  width: 20%;
+  margin: 20px;
+  border-radius: 10%;
+}
+
+#main h2 {
+  color: rgb(237, 244, 223)
+}
+
+#ed div {
+  margin-left: 25px;
+}
+
+#exp div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+}
+
+#exp h2 {
+  text-align: center;
+}
+
+.job {
+  width: 45%;
+  border: 5px dotted black;
+  margin: 10px;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  background-image: url('builder2-resources/grunge-background.jpg')
+}
+
+.job h3 {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.job h4 {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.job hr {
+  border: none;
+  border-top: 3px double black;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.job h5 {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.job ul {
+  list-style: none;
+  margin-top: 5px;
+}
+
+.job li {
+  text-indent: -25px;
+  margin-left: 25px;
+}
+
+.job li:before {
+  content: '';
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  background-size: 15px;
+  background-image: url('builder2-resources/leaf-icon.png');
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
