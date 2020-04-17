@@ -5,13 +5,23 @@ body {
 }
 
 h1 {
-  font-family: 'Gotu', sans-serif;
   font-size: 40px;
+}
+
+h1, h2 {
+  font-family: 'Gotu', sans-serif;
+}
+
+h1, #exp h2, .job h3, .job h4 {
   text-align: center;
 }
 
+main {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
 h2 {
-  font-family: 'Gotu', sans-serif;
   font-size: 26px;
   text-decoration: underline;
 }
@@ -21,13 +31,14 @@ ul {
 }
 
 #main {
-  display: flex;
   align-items: center;
   background-image: url('builder2-resources/dark_wood.png');
   height: 450px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
   color: #FBFBF8;
+}
+
+#main, #exp div {
+  display: flex;
 }
 
 #main img {
@@ -41,20 +52,15 @@ ul {
   color: rgb(237, 244, 223)
 }
 
-#ed div {
+#ed div, .job li {
   margin-left: 25px;
 }
 
 #exp div {
-  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-content: space-evenly;
-}
-
-#exp h2 {
-  text-align: center;
 }
 
 .job {
@@ -62,20 +68,16 @@ ul {
   border: 5px dotted black;
   margin: 10px;
   padding: 10px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
   background-image: url('builder2-resources/grunge-background.jpg')
 }
 
 .job h3 {
   font-size: 22px;
-  text-align: center;
   margin-bottom: 0px;
 }
 
 .job h4 {
   font-size: 20px;
-  text-align: center;
   margin-top: 0px;
   margin-bottom: 5px;
 }
@@ -83,13 +85,15 @@ ul {
 .job hr {
   border: none;
   border-top: 3px double black;
-  margin-top: 10px;
   margin-bottom: 30px;
+}
+
+.job hr, .job h5 {
+  margin-top: 10px;
 }
 
 .job h5 {
   font-size: 18px;
-  margin-top: 10px;
   margin-bottom: 10px;
 }
 
@@ -100,7 +104,6 @@ ul {
 
 .job li {
   text-indent: -25px;
-  margin-left: 25px;
 }
 
 .job li:before {
