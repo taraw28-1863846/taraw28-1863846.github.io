@@ -1,0 +1,30 @@
+body {
+  text-align: center;
+  background-color: rgba(32, 176, 168, 0.5);
+}
+
+form > div {
+  border: 1px solid black;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  padding: 10px;
+  text-align: left;
+  background-color: lightgray;
+}
+
+input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#statement input {
+  margin-bottom: 10px;
+}
+
+#statement textarea {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
